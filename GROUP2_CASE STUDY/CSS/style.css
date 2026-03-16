@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    color: rgb(0, 0, 0);
+}
+
+.hero-section p {
+    font-size: 20px;
+}
+
+/* Product Section */
+.product-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.product-section .card {
+    height: 100%;
+}
+
+/* ===== CARD STYLE ===== */
+
+.card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Example of ID Selector */
+#highlight {
+    color: rgb(123, 7, 7);
+    font-weight: bold;
+}
+
+/* ===== ABOUT HERO ===== */
+
+.hero-about {
+    background-color: #f2f2f2;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-about h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-about p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* ===== LIST GROUP ===== */
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #a84e4e;
+    font-size: 16px;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+
+/* ===== BADGES ===== */
+
+.badge {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+
+/* ===== ALERT ===== */
+
+.alert {
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+
+/* ===== TABLE ===== */
+
+.table {
+    background: rgb(255, 141, 141);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    font-size: 16px;
+}
+
+.table tbody tr:hover {
+    background: #ffb8b8;
+}
+
+
+/* ===== GLASS BOX ===== */
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+}
+
+.glass-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ===== SECTION TITLE ===== */
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #fd0d0d, #bb35dc);
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+/* ===== CAR GRID ===== */
+
+.car-card {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.car-card img {
+    transition: 0.4s;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.car-card:hover img {
+    transform: scale(1.08);
+}
+
+.car-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ===== STATS SECTION ===== */
+
+.stats {
+    background: linear-gradient(135deg, #fd0d0d, #c18a42);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* ===== DROPDOWN ===== */
+
+.dropdown-menu {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width:768px){
+
+.hero-about h1{
+    font-size:40px;
+}
+
+.hero-section p{
+    font-size:16px;
+}
+
+}
+
+.badge-black{
+background:#000;
+color:white;
+border-radius:20px;
+padding:8px 14px;
+font-size:14px;
+transition:0.3s;
+}
+
+.badge-black:hover{
+background:#333;
+transform:scale(1.05)
+}
+
+.history-box{
+border-left:6px solid #000000;
+}
+
+.innovation-box{
+border-left:6px solid #000000;
+}
+
+.vision-box{
+border-left:6px solid #000000;
+}
+
+.mission-box{
+border-left:6px solid #000000;
+}
